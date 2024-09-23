@@ -1,0 +1,107 @@
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+:root{
+    --color1: #1E1E1E;
+    --color2: #00ADB5;
+    --color3: #222831;
+    --white : #fff;
+    --color: #393E46;
+}
+
+.project img{
+  width: 100%;
+  position: relative;
+}
+.project h1{
+    top: 410%;
+    position: absolute;
+font-weight: 900;
+    display: flex;
+    justify-content: center;
+  left: 35%;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 55px;
+}
+.project span{
+    
+    font-family: "Poppins", sans-serif;
+font-size: 55px;
+    font-weight: 900;
+    padding-left: 10px;
+    color: var(--color2);
+}
+.project h4{
+    top: 430%;
+    position: absolute;
+    color: #fff;
+    display: flex;
+    left: 35%;
+    gap: 30px;
+}
+.project h2{
+    font-size: 10px;
+    padding: 10px 15px;
+    font-weight: 900;
+ border-radius: 18px;
+background-color: var(--color);
+transition: .3s ease-out;
+cursor: pointer;
+}
+.project h2:hover{
+    background-color: #00ADB5;
+    transition: .3s ease-out;
+}
+.work{
+    
+    position: absolute;
+    top: 440%;
+   
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+}
+.card {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(57, 62, 70, 0.7); 
+}
+.card img {
+    max-width: 100px;
+    height: auto;     
+    display: block;
+    margin: 0 auto;   
+  }
+
+
+  .boxes{
+    margin-top: 20px;
+display: flex;
+gap: 10px;
+  }
+  .box{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(57, 62, 70, 0.7); 
+  
+   
+  }
+  .task{
+    margin-left: 25%;
+  }
+.tasks{
+   margin-left: 10%;
+    top: 16%;
+}
+
+  
+

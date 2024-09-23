@@ -1,0 +1,133 @@
+:root{
+    --color1: #1E1E1E;
+    --color2: #00ADB5;
+    --color3: #222831;
+    --white: #fff;
+}
+
+.menu {
+    background-color: var(--color3);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+/* Style pour le logo */
+.logo a {
+    font-family: "Handlee", cursive;
+    font-weight: 100;
+    font-size: 2em;
+    padding-right: 3px;
+    color: var(--color2);
+}
+
+.logo span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: var(--white);
+}
+
+/* Hamburger icon */
+.menu-icon {
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+
+.menu-icon div {
+    width: 35px;
+    height: 4px;
+    background-color: var(--color2);
+    margin: 6px 0;
+    transition: all 0.3s ease;
+}
+
+.menu-icon .bar2 {
+    background-color: var(--white);
+    width: 25px; /* Barre inférieure plus courte */
+    margin-top: 15px;
+}
+
+/* Navbar (hidden by default) */
+.nav-links {
+    list-style: none;
+    display: none; /* Cachée par défaut */
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: var(--color3);
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.nav-links li {
+    margin: 10px 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.nav-links li a:hover {
+    background-color: #444;
+    color: var(--color2) !important
+}
+
+/* Navbar affichée lorsque 'active' est présente */
+.nav-links.active {
+    display: flex;
+}
+
+.menu span{
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: zoomOutDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; 
+}
+.animate__zoomOutDown {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+  
+
+/* Media query pour les écrans plus larges */
+@media (min-width: 768px) {
+    .menu-icon {
+        display: none; /* Cacher le hamburger sur les grands écrans */
+    }
+
+    .nav-links {
+        display: flex; /* Afficher la navbar sur les grands écrans */
+        flex-direction: row;
+        position: static;
+        background-color: transparent;
+        justify-content: flex-end;
+        width: auto;
+    }
+
+    .nav-links li {
+        margin: 0;
+    }
+
+    .nav-links li a {
+        padding: 10px 15px;
+    }
+}
+
+
+  

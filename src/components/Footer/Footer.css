@@ -1,0 +1,116 @@
+
+:root{
+    --color1: #1E1E1E;
+    --color2: #00ADB5;
+    --color3: #222831;
+    --white : #fff;
+    --color: #393E46;
+}
+.footer{
+  
+    background-color: var(--color3);
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.footer h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+.nav{
+    display: flex;
+    gap: 100px;
+}
+.sociaux ion-icon{
+   
+display: inline-block;
+    margin: 0 0.5rem;
+      
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+
+    font-size: 2em;
+    padding: 6px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: var(--color);
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+.sociaux{
+    padding-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.terme h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    align-items: end;
+    padding-top: 10%;
+ padding-right: 10%;
+   color: #fff;
+}
+
+
+
+
+.menu-icon {
+    cursor: pointer;
+  }
+  
+  .menu-icon div {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 50px;
+    height: 2px;
+    background-color: var(--color2);
+    margin: 6px 0;
+    transition: all 0.3s ease;
+  }
+  
+  /* Style the navigation links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #f2a365;
+  }
+  
+  /* Hamburger with two bars stacked */
+  .menu-icon .bar2 {
+    width: 20px;
+    background-color: #fff;
+    margin-top: 15px;
+  }
+  

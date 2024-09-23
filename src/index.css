@@ -1,0 +1,19 @@
+
+
+:root{
+  --color1: #1E1E1E;
+  --color2: #00ADB5;
+  --color3: #222831;
+  --white : #fff;
+}
+*{
+
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}

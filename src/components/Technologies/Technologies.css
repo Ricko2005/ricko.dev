@@ -1,0 +1,94 @@
+:root{
+    --color1: #1E1E1E;
+    --color2: #00ADB5;
+    --color3: #222831;
+    --white : #fff;
+    --color: #393E46;
+}
+.Technologies{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--color3);
+    color: #fff;
+    display: flex;
+    gap: 25%;
+    margin-top: -5%;
+    padding-left: 12%;padding-bottom: 70px;
+
+}
+.Technologies h1{
+    padding-left: -10px;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    font-weight: bold;
+
+    }
+
+.Technologies h2{
+    color: var(--color2);
+    display: flex;
+    flex-direction: column;
+    line-height: 55px;
+ 
+}
+
+.Technologies h2:hover{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    transition: .3s ease-out;
+    cursor: pointer;
+ 
+}
+.languages h1:hover{
+color:#00ADB5 ;
+cursor: pointer;
+}
+
+.framework h1{
+    color: #00ADB5;
+}
+
+.framework{
+padding-top: 10%;
+padding-left: 10%;
+}
+.framework h2{
+    color: #fff;
+}
+.framework h2:hover{
+    color: #00ADB5;
+}
+.html{
+    position: absolute;
+    left: 50%;
+  top: 350%;
+}
+.boule span{
+
+
+    width: 50px;
+    height: 50px;
+    padding: 3px 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.boule{
+    left: 40%;
+    top: 350%;
+    position: absolute;
+}
+
+.h1{
+    margin: 0 0.5rem;
+    animation: bounce; 
+    animation-duration: 2s
+}
+
+.animate__bounce{
+    
+    --animate-duration: 2s;
+  }
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }

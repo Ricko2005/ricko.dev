@@ -1,0 +1,91 @@
+
+:root{
+    --color1: #1E1E1E;
+    --color2: #00ADB5;
+    --color3: #222831;
+    --white : #fff;
+    --color: #393E46;
+}
+
+.contact{
+    background-color: var(--color3);
+  margin-top: -1%;
+  padding: 12%;
+  display: flex;
+  gap: 20%;
+}
+
+.contact h1{
+    font-size: 2.5em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    color: #fff;
+
+}
+.contact span{
+    font-family: "Poppins", sans-serif;
+ 
+    font-weight: 900;
+    color: #00ADB5;
+}
+.vectors{
+    position: absolute;
+    top: 580%;
+    left: 0;
+}
+.All{
+    display: flex;
+    gap: 8%;
+}
+input{
+    background-color: var(--color);
+    color: #fff;
+    border-radius: 18px;
+    padding: 10px 60px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+label{
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-weight: 800;
+}
+.area{
+    
+ padding: 20px;
+    color: #fff;
+}
+
+textarea{
+    background-color: var(--color);
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 20px;
+}
+button{
+    font-family: "Poppins", sans-serif;
+font-weight: 600;
+    padding: 10px 70px;
+    border-radius: 19px;
+    background-color: #00ADB5;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+::placeholder{
+    color: #fff;
+    font-weight: 400;
+}
+.keyboard{
+    margin-top: -10%;
+}
+
+.maile{
+  margin-left: 70%;
+}
