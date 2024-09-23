@@ -15,7 +15,7 @@ export const Desactive = () => {
       if (e.ctrlKey && e.shiftKey && e.key === 'I') {
         e.preventDefault();
       }
-      // Bloquer Ctrl+Shift+C (Sélecteur d'élément)
+    //   // Bloquer Ctrl+Shift+C (Sélecteur d'élément)
       if (e.ctrlKey && e.shiftKey && e.key === 'C') {
         e.preventDefault();
       }

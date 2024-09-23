@@ -3,7 +3,7 @@ import "./Contact.css"
 import { assets } from '../../assets/assets'
 export const Contact = () => {
   return (
-<section className="contact">
+<section id="contact">
 
 
 <div className="left">
@@ -20,7 +20,7 @@ export const Contact = () => {
 <div className="All">
 
 <div className="div">
-    <label htmlFor="">Nom</label>
+    <label htmlFor="">Nom ou prenom</label>
 <input type="text" placeholder='Enter votre nom' required />
 
 </div>

@@ -12,10 +12,11 @@ export const Technologies = () => {
     <h2>CSS</h2>
     <h2>JavaScript</h2>
     <h2>PHP</h2>
+
     <img src={assets.html} className='html' alt="" />
    
     
-
+    <h2>Git/Github (Outil de versioning)</h2>
     </div>
 
     <div className="framework">

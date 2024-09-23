@@ -40,6 +40,12 @@ display: inline-block;
     border-radius: 50%;
     color: #fff;
     background-color: var(--color);
+    transition: all 0.3s ease;
+}
+.sociaux ion-icon:hover{
+    background-color: #00ADB5;
+    transition: all 0.3s ease;
+    margin-top: -7px;
 }
 
 .animate__animated.animate__bounce {
@@ -55,6 +61,9 @@ display: inline-block;
     padding-top: 30px;
     display: flex;
     gap: 30px;
+}
+.sociaux:hover{
+    color: #00ADB5;
 }
 .terme h2{
     font-family: "Poppins", sans-serif;

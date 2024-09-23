@@ -4,7 +4,7 @@ import { assets } from '../../assets/assets'
 
 export const About = () => {
   return (
-   <section className="about">
+   <section id="about">
 
 
 <div className="About_me">
@@ -14,11 +14,11 @@ export const About = () => {
 <p>Développement Web (2024-2025)
 <li>École Internationale de Graphisme du Bénin (EIG Bénin)</li> <br /><br />
 
-En tant que développeur Full-stack <br />je me spécialise dans le développement web <br />et l'architecture logicielle. Depuis janvier 2024, <br /> j'ai travaillé sur divers projets, notamment la conception d'un site <br /> de vente de tickets pour un événement de mode, la création d'un site  <br />pour un restaurant, ainsi que le développement d'un quiz interactif avec <br /> React.js. <br /> <br /> J'ai également contribué à la refonte du site du restaurant Chez Chiro, <br />améliorant ainsi son interface et ses fonctionnalités. <br />
+En tant que développeur Full-stack <br />je me spécialise dans le développement web <br />et l'architecture logicielle. Depuis janvier 2024, <br /> j'ai travaillé sur divers projets, notamment la conception d'un site <br /> de vente de tickets pour un événement de mode, la création d'un site  <br />pour un restaurant, ainsi que le développement d'un quiz interactif avec <br /> React.js. <br /> <br />  <br />
 
 Mes compétences incluent la maîtrise des langages de programmation, <br /> la gestion de bases de données relationnelles,ainsi que la résolution <br /> de problèmes complexes liés au développement web. <br /> Je suis également axé sur la sécurité et la protection des données,<br /> assurant des solutions robustes et sécurisées pour les applications que <br /> je développe. <br /><br />
 
-En dehors de mon travail, je suis passionné par le codage créatif, <br /> explorant des projets personnels pour repousser les limites de la programmation. <br /> J'apprécie également une grande variété de genres musicaux et suis un fervent amateur <br /> de jeux vidéo, ce qui enrichit ma créativité et ma perspective dans le développement web.
+En dehors de mon travail, je suis passionné par le codage créatif, <br /> explorant des projets personnels pour repousser les limites de la programmation. <br /> J'apprécie également une grande variété de genres musicaux et suis un fervent amateur <br /> de jeux vidéo  et de séries, ce qui enrichit ma créativité et ma perspective <br /> dans le développement web.
 
 </p>
 <img src={assets.Vector_189} alt="" />

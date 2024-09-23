@@ -37,7 +37,7 @@ padding: 20% 4%;
 top: 140%;
 left: 25%;
 }
-.about{
+#about{
     background-color: var(--color3);
 display: flex;
 }
@@ -48,7 +48,7 @@ display: flex;
     right: 5%;
 }
 
-.about_piture{
+#about_piture{
     z-index: 10;
 }
 li{

@@ -7,7 +7,7 @@
     --color: #393E46;
 }
 
-.contact{
+#contact{
     background-color: var(--color3);
   margin-top: -1%;
   padding: 12%;
@@ -15,14 +15,14 @@
   gap: 20%;
 }
 
-.contact h1{
+#contact h1{
     font-size: 2.5em;
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     color: #fff;
 
 }
-.contact span{
+#contact span{
     font-family: "Poppins", sans-serif;
  
     font-weight: 900;
@@ -36,6 +36,9 @@
 .All{
     display: flex;
     gap: 8%;
+}
+.right{
+    display: block;
 }
 input{
     background-color: var(--color);

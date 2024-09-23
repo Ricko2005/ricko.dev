@@ -102,6 +102,38 @@ gap: 10px;
    margin-left: 10%;
     top: 16%;
 }
-
+.project {
+    /* Styles globaux pour la section */
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne suivante */
+    justify-content: center; /* Centre les éléments */
+  }
+  
+  .card {
+    margin: 10px; /* Espacement entre les cartes */
+  }
+  
+  .cards img {
+    max-width: 120px; /* Réduit la largeur des images */
+    height: auto; /* Garde le ratio */
+  }
+  
+  .grid-layout {
+    display: flex;
+    gap: 5%;
+  
+  }
+  
+  .grid-layout .card {
+    width: calc(20.33% - 20px); /* Largeur de 3 éléments par ligne */
+  }
+  
+  .grid-layout .card:nth-child(n+4) {
+    width: calc(20.33% - 20px); /* Réduire la largeur pour les images en bas */
+  }
+  
   
 
